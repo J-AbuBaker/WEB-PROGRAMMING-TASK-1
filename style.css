@@ -61,3 +61,66 @@ header::after {
     height: 2px;
     background-color: #2bad9cef;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    background-image: url('./image/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.text-content {
+    max-width: 100%;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.text-content span {
+    color: #2bad9cef;
+}
+
+.text-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2bad9cef;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.text-content .btn:hover {
+    background-color: #2bad9cef;
+}
+
+.image-content {
+    max-width: 45%;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
