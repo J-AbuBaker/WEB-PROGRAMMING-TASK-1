@@ -165,3 +165,6 @@ body {
     border-radius: 30px;
 }
 
+.image-content img {
+    margin-bottom: 20px;
+}
