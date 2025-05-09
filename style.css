@@ -124,3 +124,7 @@ header::after {
     height: auto;
     border-radius: 10px;
 }
+
+.text-content .btn:hover {
+    background-color: teal;
+}
