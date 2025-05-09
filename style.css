@@ -204,3 +204,7 @@ nav ul li a:hover {
     max-width: 500px;
     margin: 0 auto;
 }
+
+.text-content h1 {
+    letter-spacing: 1px;
+}
