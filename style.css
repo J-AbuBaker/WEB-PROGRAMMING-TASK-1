@@ -128,3 +128,8 @@ header::after {
 .text-content .btn:hover {
     background-color: teal;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
