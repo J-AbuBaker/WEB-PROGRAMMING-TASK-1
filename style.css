@@ -160,3 +160,8 @@ body {
 .text-content h1 {
     transition: all 0.3s ease;
 }
+
+.text-content .btn {
+    border-radius: 30px;
+}
+
