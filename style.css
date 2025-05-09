@@ -195,3 +195,7 @@ nav ul li a:hover {
     padding: 5px 10px;
     border-radius: 4px;
 }
+
+.text-content h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
