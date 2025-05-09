@@ -133,3 +133,18 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
 }
+
+@media screen and (max-width: 768px) {
+    .text-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-content {
+        max-width: 100%;
+    }
+}
