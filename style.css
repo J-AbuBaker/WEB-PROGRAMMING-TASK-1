@@ -156,3 +156,7 @@ body {
 .hero {
     padding: 40px 20px;
 }
+
+.text-content h1 {
+    transition: all 0.3s ease;
+}
