@@ -199,3 +199,8 @@ nav ul li a:hover {
 .text-content h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.text-content p {
+    max-width: 500px;
+    margin: 0 auto;
+}
