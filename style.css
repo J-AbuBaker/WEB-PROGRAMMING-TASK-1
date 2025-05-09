@@ -168,3 +168,7 @@ body {
 .image-content img {
     margin-bottom: 20px;
 }
+
+.hero-content {
+    align-items: center;
+}
