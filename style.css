@@ -10,3 +10,9 @@ header {
     top: 0;
     z-index: 10;
 }
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-left: 100px;
+}
