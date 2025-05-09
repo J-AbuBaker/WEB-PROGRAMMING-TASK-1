@@ -180,3 +180,8 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+nav ul li a.active {
+    color: teal;
+    border-bottom: 2px solid teal;
+}
