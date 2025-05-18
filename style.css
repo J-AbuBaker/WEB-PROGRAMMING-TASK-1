@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -16,7 +27,6 @@ header {
     height: auto;
     margin-left: 100px;
 }
-
 nav ul {
     display: flex;
     list-style: none;
@@ -52,6 +62,10 @@ nav ul li a:hover {
     color: teal;
 }
 
+h1 {
+    color: black;
+}
+
 header::after {
     content: '';
     position: absolute;
@@ -71,6 +85,7 @@ header::after {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
 }
 
 .hero-content {
@@ -80,6 +95,7 @@ header::after {
     max-width: 1200px;
     margin: 0 auto;
     gap: 20px;
+
 }
 
 .text-content {
@@ -113,113 +129,4 @@ header::after {
 
 .text-content .btn:hover {
     background-color: #2bad9cef;
-}
-
-.image-content {
-    max-width: 45%;
-}
-
-.image-content img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.text-content .btn:hover {
-    background-color: teal;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
-}
-
-@media screen and (max-width: 768px) {
-    .text-content h1 {
-        font-size: 32px;
-    }
-
-    .hero-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .image-content {
-        max-width: 100%;
-    }
-}
-
-.image-content img {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.hero {
-    padding: 40px 20px;
-}
-
-.text-content h1 {
-    transition: all 0.3s ease;
-}
-
-.text-content .btn {
-    border-radius: 30px;
-}
-
-.image-content img {
-    margin-bottom: 20px;
-}
-
-.hero-content {
-    align-items: center;
-}
-
-.hero {
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-nav ul li a.active {
-    color: teal;
-    border-bottom: 2px solid teal;
-}
-
-.image-content img {
-    transition: opacity 0.5s ease-in-out;
-}
-
-nav ul li a:hover {
-    background-color: #f0f0f0;
-    padding: 5px 10px;
-    border-radius: 4px;
-}
-
-.text-content h1 {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.text-content p {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.text-content h1 {
-    letter-spacing: 1px;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    height: calc(100vh - 80px);
-    background: rgba(0, 0, 0, 0.2);
-    z-index: 0;
-}
-.hero-content {
-    position: relative;
-    z-index: 1;
 }
